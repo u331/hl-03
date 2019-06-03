@@ -8,8 +8,8 @@ public class Class03 {
         int a = 100;
         int[] arr = new int[101];
 
-        for(int el: arr){
-            el = a--;
+        for (int i = 0; i <= a ; i++){
+            arr[i] = a - i;
         }
 
     }

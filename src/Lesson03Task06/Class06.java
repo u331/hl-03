@@ -10,7 +10,7 @@ public class Class06 {
 
         int sum = -1;
 
-        if (a > 0) {
+        if (a >= 0) {
             sum = 0;
             while ( a > 0){
                 if(a % 2 == 0) {
@@ -25,6 +25,8 @@ public class Class06 {
 
     public static void main(String[] args) {
         System.out.println(getEvenDigitSum(12345678));
+        System.out.println(getEvenDigitSum(-346 ));
+        System.out.println(getEvenDigitSum(0 ));
     }
 
 
